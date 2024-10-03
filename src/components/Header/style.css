@@ -1,0 +1,45 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #333;
+  max-width: 100%;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: white;
+  margin-left: 2rem;
+  max-height: 6rem;
+}
+
+.h2 {
+  color: rgb(79, 226, 11);
+  margin-left: 23rem;
+  max-height: 43rem;
+}
+.menu-hamburger {
+  font-size: 3rem;
+  cursor: pointer;
+  color: white;
+  margin-right: 1rem;
+}
+
+/* .menu {
+    display: none;
+  }
+  
+  .menu.open {
+    display: block;
+  } */
+
+@media (min-width: 768px) {
+  /* .menu {
+      display: block;
+    }
+  
+    .menu-hamburger {
+      display: block;
+    } */
+}
