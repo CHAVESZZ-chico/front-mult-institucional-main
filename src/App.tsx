@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Utility from "./pages/Home";
+import Home from "./components/MainHome";
+import Utility from "./pages/Home/Utility";
 
 const App: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);

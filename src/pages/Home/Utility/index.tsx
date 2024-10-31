@@ -1,9 +1,10 @@
-import Header from "../../components/Header";
-import Main from "../../components/Main";
-import Card from "../../components/Card";
-import { IHeaderProps } from "../../interfaces";
-import { UtilityService } from "../../helpers/Services/UtilityService";
+
 import { SetStateAction, useEffect, useState } from "react";
+import Header from "../../../components/Header";
+import { IHeaderProps } from "../../../interfaces";
+import Main from "../../../components/Main";
+import Card from "../../../components/Card";
+import { UtilityService } from "../../../helpers/Api/Services/UtlityService";
 
 const utilityService = new UtilityService();
 

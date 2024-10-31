@@ -1,4 +1,5 @@
-import { Api } from "../../Api";
+import { Api } from "..";
+
 
 export class UtilityService {
   public async getAll() {
