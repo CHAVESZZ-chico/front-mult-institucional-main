@@ -18,9 +18,6 @@ const ModalNavigation = ({ isOpen, onClose }: IModalProps) => {
           <li className="option-navigation">
             <Link to="/" onClick={onClose}>Home</Link>
           </li>
-          <li className="option-navigation">
-            <Link to="/" onClick={onClose}>Codigos</Link>
-            </li>
         </ul>
       </div>
     </div>

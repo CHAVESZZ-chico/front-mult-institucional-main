@@ -1,4 +1,4 @@
-import { Api } from "..";
+import { Api } from "../../api";
 
 
 export class UtilityService {

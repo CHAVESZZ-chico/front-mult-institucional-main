@@ -5,17 +5,14 @@
   flex-direction: column;
   padding: 2rem;
   max-height: 20rem;
-  background-color: #cabf228f;
+  background-color: #ffffff8f;
   border-radius: 1rem;
   justify-content: center;
   align-items: center;
 }
 
 .img-card {
-  max-width: 6rem;
-  margin-right: 105REM;
-  border-radius: 1rem;
-
+  max-width: 15rem;
 }
 
 .span-card {
@@ -29,7 +26,7 @@
 .p-card {
   font-family: Jomhuria;
   font-size: 2.5rem;
-  color: #ffffff;
+  color: #736666;
   text-align: left;
   margin: 0;
   padding: 0;

@@ -1,18 +1,14 @@
-import Header from "../../components/Header";
-import MainHome from "../../components/MainHome";
-import { IHeaderProps } from "../../interfaces";
+import React from "react";
+import Main from "../Main";
 
-const Home = ({ isOpen, setIsOpen, onClose }: IHeaderProps) => {
+const MainHome: React.FC = () => {
   return (
-    <>
-      <Header isOpen={isOpen} setIsOpen={setIsOpen} onClose={onClose} />
-      <MainHome isOpen={false} setIsOpen={function (): void {
-        throw new Error("Function not implemented.");
-      } } onClose={function (): void {
-        throw new Error("Function not implemented.");
-      } } />
-    </>
+    <Main>
+      <h1>SLOGAN EM CAIXA ALTA</h1>
+      <p>Nós oferecemos soluções inovadoras para melhorar a sua empresa.</p>
+      <button className="cta-button">Faça um Orçamento</button>
+    </Main>
   );
 };
 
-export default Home;
+export default MainHome;

@@ -1,13 +1,12 @@
 import "./style.css";
-import ModalNavigation from "../ModalNavigation";
 import { IHeaderProps } from "../../interfaces";
+import ModalNavigation from "../ModalNavigation";
 
 const Header = ({ isOpen, onClose }: IHeaderProps) => {
 
   return (
     <header className="header">
-      <img className="logo" src="src/assets/logo da speedx.png" />
-      <h1>SEMPRE AO SEU LADO</h1>
+      <img className="logo" src="src/assets/logo.jpg" />
       <h2 className="menu-hamburger" onClick={onClose}>
         ☰
       </h2>
