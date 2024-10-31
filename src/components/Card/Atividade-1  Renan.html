@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informações do Aluno</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            position: relative; /* Adiciona posição relativa */
+        }
+
+        h1 {
+            text-align: center;
+            color: #002e67;
+        }
+
+        h2 {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-left: 5px solid #002e67;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        .section p {
+            padding: 5px 0;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+        }
+
+        .input-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .input-group input, .input-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .input-group textarea {
+            resize: vertical;
+        }
+
+        .submit-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #002e67;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #004a99;
+        }
+
+        .social-links a {
+            display: inline-block;
+            margin-right: 10px;
+            color: #002e67;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        .profile-pic {
+            position: absolute; /* Posição absoluta */
+            top: 20px; /* Distância do topo */
+            right: 20px; /* Distância da direita */
+            width: 100px; /* Largura da imagem */
+            height: auto; /* Altura automática para manter proporções */
+            border-radius: 50%; /* Faz a imagem redonda */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://cdn.pixabay.com/photo/2024/04/20/14/31/ai-generated-8708695_640.jpg" alt="Foto de Maick Luiz" class="profile-pic"> <!-- Substitua pelo caminho da sua imagem -->
+
+        <h1>Maick Luiz </h1>
+
+        <div class="section">
+            <h2>Informações Pessoais</h2>
+            <p>Nome: Maick Luiz</p>
+            <p>Email: maickl.mendes@gmail.com</p>
+            <p>Telefone: (27) 99999-9999</p>
+        </div>
+
+        <div class="section">
+            <h2>Educação</h2>
+            <p>Curso: Técnico em Informática - IFES</p>
+            <p>Ano de Conclusão: 2025</p>
+        </div>
+
+        <div class="section">
+            <h2>Experiência Profissional</h2>
+            <p>Empresa: Empresa Tech é tudp</p>
+            <p>Cargo: Estagiário de TI</p>
+            <p>Duração: Janeiro 2023 - Presente</p>
+        </div>
+
+        <div class="section">
+            <h2>Redes Sociais</h2>
+            <div class="social-links">
+                <a href="#">LinkedIn</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contato</h2>
+            <form>
+                <div class="input-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome">
+                </div>
+
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Seu email">
+                </div>
+
+                <div class="input-group">
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Sua mensagem"></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

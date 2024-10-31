@@ -8,7 +8,11 @@ const Utility = ({ isOpen, setIsOpen, onClose }: IHeaderProps) => {
     <>
       <Header isOpen={isOpen} setIsOpen={setIsOpen} onClose={onClose} />
       <Main>
-        <Card />
+        <Card content={{
+          title: "",
+          description: "",
+          image: ""
+        }} />
       </Main>
     </>
   );
